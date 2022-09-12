@@ -10,3 +10,14 @@ h1 {
     border-width: 1in;
     border-color: black;
 }
+
+.sbc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#sbcbutton {
+    border-color: gray;
+    background-color: red;
+    color: white;
+}
