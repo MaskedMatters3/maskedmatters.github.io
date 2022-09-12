@@ -94,6 +94,10 @@
                 function reset() {
                     location.reload();
                 }
+
+                function goback() {
+                    window.location.href = "/";
+                }
                 
             </script>
         
@@ -102,6 +106,7 @@
         <h1 id="spacebarCount">0</h1>
         <h5 id="superMode"></h5><br><br>
         <button onclick="reset()">Reset</button>
+        <button onclick="goback()">Go Back</button>
         <p>This is a Yay Company website made with code by Matthew West! Thank you for coming to my weird website. This website lets you track how many times have you hit the spacebar!! You can challenge you friends and no, I'm not kidding that's how it goes!</p>
 
     </body>
