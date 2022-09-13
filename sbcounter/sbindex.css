@@ -14,13 +14,21 @@
     font-weight: 300;
 }
 
+#reset {
+    top: 47%;
+    left: 50%;
+}
+
+#goback {
+    top: 50%;
+    left: 50%;
+}
+
 button {
     background-color: solid white;
     border: 1px solid red;
     margin: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-family: 'Roboto', sans-serif;
