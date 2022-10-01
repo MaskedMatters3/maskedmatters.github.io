@@ -16,7 +16,18 @@ h1 {
     font-weight: 400;
 }
 
+.tit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 #sbcbutton {
+    border-color: gray;
+    background-color: red;
+    color: white;
+}
+
+#titbutton {
     border-color: gray;
     background-color: red;
     color: white;
